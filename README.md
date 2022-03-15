@@ -1,4 +1,5 @@
- ![SG_Twilio_Lockup_Social-56f3cfd2f6b0c62422980170d57fac64](https://user-images.githubusercontent.com/92742169/158389790-abaa2722-fbb6-4a8f-a0f5-ee88f184bd58.png)
+![sendgrid](https://user-images.githubusercontent.com/92742169/158395144-8fa08a3b-fa9d-44f9-b1de-56fb1c92e042.png)
+
 
 # Project Title
 
