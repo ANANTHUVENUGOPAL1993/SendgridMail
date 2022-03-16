@@ -1,9 +1,9 @@
 ![sendgrid](https://user-images.githubusercontent.com/92742169/158395144-8fa08a3b-fa9d-44f9-b1de-56fb1c92e042.png)
 
-# Date- 16 March 2022
+#  16 March 2022
 
-# Project Title
-SendGrid via Node.js
+# SendGrid via Node.js
+
 
 ## Description
 Sending  Mail with the help of Sendgrid using Node.js
