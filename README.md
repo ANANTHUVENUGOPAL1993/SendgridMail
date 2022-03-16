@@ -66,7 +66,7 @@ const dotenv = require("dotenv")
 ### Set the API key 
  * Remember, the API key is stored in an environment variable, so you can use dotenv.config() and  process.env() methods to access and assign it using the helper library's setApiKey() method. The helper library will pass your key to the API in an Authorization header using Bearer token authentication.
 ```
-const sendGridAPIKey = process.env.send
+const sendGridAPIKey = process.env.Send
  sgMail.setApiKey(sendGridAPIKey);
 
 ```
