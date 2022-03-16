@@ -18,9 +18,13 @@ Sending  Mail with the help of Sendgrid via Node.js
 ### Create a new Node.js project
 * Create a folder in your system 
 * Create a new Node.js project using the command   
+* ```
  npm init 
+```
 * Create a file app.js .We will be running the node from the file app.js 
 
+### Steps -3 
+### Install the dependencies for SendGrid
 
 
 
