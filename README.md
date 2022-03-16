@@ -12,7 +12,7 @@ Sending  Mail with the help of Sendgrid using Node.js
 Node.js v16.14.0 
 
 ## Installation 
-Install Node.js v16.14.0 
+Install Node.js
 
 ## Detailed Steps with code and instructions
 
