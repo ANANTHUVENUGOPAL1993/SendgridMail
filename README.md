@@ -21,10 +21,36 @@ Sending  Mail with the help of Sendgrid via Node.js
  ```
  npm init 
 ```
-* Create a file app.js .We will be running the node from the file app.js 
+* Create a file app.js .We will be running the node from the file server.js 
 
 ### Steps -3 
 ### Install the dependencies for SendGrid
+* Install one dependency for sendgrid in our node project using the command
+```
+npm install @sendgrid/mail
+```
+*Now the dependency is installed can be seen the package.json file
+
+### Steps -4
+### Install the dependencies for Environment Variable
+* Install one dependency for Environment Variable in our node project using the command
+```
+npm install dotenv
+```
+*Now the dependency is installed can be seen the package.json file
+* Environment Variable is used to store the API Key
+
+### Steps -5
+### Create a .env file in the folder and set the sendgrid api.
+```
+Send=*****your api key********************* 
+```
+### Steps -6
+### Import 
+```
+Send=*****your api key********************* 
+```
+
 
 
 
