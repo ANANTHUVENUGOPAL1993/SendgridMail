@@ -2,24 +2,18 @@
 
 
 # Project Title
-
-Simple overview of use/purpose.
+SendGrid via Node.js.
 
 ## Description
+Sending  Mail with the help of Sendgrid via Node.js
 
-An in-depth paragraph about your project and overview of use.
+### Steps
 
-## Getting Started
+* Create an account in sendgrid
+* Signup in the sendgrid
+Authenticate Sender email address to verify and confirm , who is sending the mail.
+Generate the api key using ‘Create API Key’ in the sendgrid dashboard page.This API key is used for communicating between Node.js and Sendgrid . The request from the node.js is send through this API key.
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
