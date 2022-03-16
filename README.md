@@ -2,7 +2,7 @@
 
 #  16 March 2022
 
-# SendGrid using Node.js
+# Sendgrid-Email API Quickstart for Node.js
 
 
 ## Description
@@ -12,7 +12,7 @@ Sending  Mail with the help of Sendgrid using Node.js
 Node.js v16.14.0 
 
 ## Installation 
-Node.js v16.14.0 
+Install Node.js v16.14.0 
 
 ## Detailed Steps with code and instructions
 
@@ -55,23 +55,44 @@ npm install dotenv
 Send=*****your api key********************* 
 ```
 ### Steps -6
-### Import 
+### Import all the dependencies to the file service.js 
 ```
-Send=*****your api key********************* 
+const sgMail=require('@sendgrid/mail');
+const dotenv = require("dotenv")
+
 ```
 
+### Steps -7
+### Set the API key 
+ * Remember, the API key is stored in an environment variable, so you can use dotenv.config() and  process.env() methods to access and assign it using the helper library's setApiKey() method. The helper library will pass your key to the API in an Authorization header using Bearer token authentication.
+```
+const sendGridAPIKey = process.env.send
+ sgMail.setApiKey(sendGridAPIKey);
 
+```
 
-
-
-
+### Steps -8
+### Creating a email body and sending it.
+* The following Node.js block contains all the code needed to successfully deliver a message with the SendGrid Mail Send API. 
+```
+const msg={
+    to:["ananthuvenugopal1993@gmail.com"],
+    from:"ananthu.venugopal@urolime.com",
+    subject:"Hi This is a test mail from Ananthu Venugopal via sendgrid using nodejs",
+    text:"Hi This is a test mail from Ananthu Venugopal via sendgrid using nodejs"
+}
+ sgMail.send(msg)
+ .then((res)=>{
+     console.log("Successfully sent");
+ }).catch((err)=>{
+     console.log("failed");
+ })
+```
 
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* The code block is now complete. To send the message, you can run the service.js file with Node.js.
 ```
-code blocks for commands
+node service.js
 ```
 
 ## Help
