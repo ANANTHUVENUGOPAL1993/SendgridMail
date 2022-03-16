@@ -90,7 +90,7 @@ const msg={
 ```
 
 ### Executing program
-* The code block is now complete. To send the message, you can run the service.js file with Node.js.
+* The code block is now complete. To send the message, you can run the service.js file in Node.js.
 ```
 node service.js
 ```
