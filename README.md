@@ -2,7 +2,7 @@
 
 #  16 March 2022
 
-# SendGrid via Node.js
+# SendGrid using Node.js
 
 
 ## Description
