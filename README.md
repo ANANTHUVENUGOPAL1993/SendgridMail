@@ -7,11 +7,24 @@ SendGrid via Node.js.
 ## Description
 Sending  Mail with the help of Sendgrid via Node.js
 
-### Steps -1 Create an account in sendgrid
+### Steps -1 
+### Create an account in sendgrid
 
 * Signup in the sendgrid
 * Authenticate Sender email address to verify and confirm , who is sending the mail.
 * Generate the api key using ‘Create API Key’ in the sendgrid dashboard page.This API key is used for communicating between Node.js and Sendgrid . The request from the node.js is send through this API key.
+
+### Steps -2 
+### Create a new Node.js project
+* Create a folder in your system 
+* Create a new Node.js project using the command   
+ npm init 
+* Create a file app.js .We will be running the node from the file app.js 
+
+
+
+
+
 
 
 ### Executing program
