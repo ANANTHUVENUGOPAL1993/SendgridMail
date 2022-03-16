@@ -14,7 +14,7 @@ const sendGridAPIKey = process.env.send
  sgMail.setApiKey(sendGridAPIKey);
  
 const msg={
-    to:["ananthuvenugopal3@gmail.com"],
+    to:["ananthuvenugopal1993@gmail.com"],
     from:"ananthu.venugopal@urolime.com",
     subject:"Hi This is a test mail from Ananthu Venugopal via sendgrid using nodejs",
     text:"Hi This is a test mail from Ananthu Venugopal via sendgrid using nodejs"
