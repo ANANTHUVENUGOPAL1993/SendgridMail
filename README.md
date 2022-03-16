@@ -109,6 +109,10 @@ Check out Sentgrid documentations
 
 This project is open source.
 
+## Contact information -Developer
+
+Mail- ananthu.venugopal@urolime.com
+
 ## Acknowledgments
 
 https://sendgrid.com/
