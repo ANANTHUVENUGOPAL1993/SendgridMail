@@ -107,7 +107,7 @@ Check out Sentgrid documentations
 
 ## License
 
-This project is opensourced.
+This project is open source.
 
 ## Acknowledgments
 
