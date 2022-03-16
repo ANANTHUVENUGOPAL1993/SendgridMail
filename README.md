@@ -1,11 +1,20 @@
 ![sendgrid](https://user-images.githubusercontent.com/92742169/158395144-8fa08a3b-fa9d-44f9-b1de-56fb1c92e042.png)
 
+# Date- 16 March 2022
 
 # Project Title
-SendGrid via Node.js.
+SendGrid via Node.js
 
 ## Description
-Sending  Mail with the help of Sendgrid via Node.js
+Sending  Mail with the help of Sendgrid using Node.js
+
+## Software name and version
+Node.js v16.14.0 
+
+## Installation 
+Node.js v16.14.0 
+
+## Detailed Steps with code and instructions
 
 ### Steps -1 
 ### Create an account in sendgrid
@@ -29,7 +38,7 @@ Sending  Mail with the help of Sendgrid via Node.js
 ```
 npm install @sendgrid/mail
 ```
-*Now the dependency is installed can be seen the package.json file
+* Now the dependency is installed can be seen the package.json file
 
 ### Steps -4
 ### Install the dependencies for Environment Variable
@@ -37,7 +46,7 @@ npm install @sendgrid/mail
 ```
 npm install dotenv
 ```
-*Now the dependency is installed can be seen the package.json file
+* Now the dependency is installed can be seen the package.json file
 * Environment Variable is used to store the API Key
 
 ### Steps -5
